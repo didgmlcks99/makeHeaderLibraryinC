@@ -3,6 +3,7 @@
 + make library
     + static
         + gcc -c score.c : makes .o file
-        + running : gcc score.o scoremain.c -o scoremainStatic
+        + running file : gcc score.o scoremain.c -o scoremainStatic
     + dynamic
         + ar rv libscore.a score.o : makes .a file
+        + running file : gcc scoremain.c -o scoremain -I./ -L./ -lscore
