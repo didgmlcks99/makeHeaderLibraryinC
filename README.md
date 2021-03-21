@@ -6,4 +6,4 @@
         + running file : gcc score.o scoremain.c -o scoremainStatic
     + dynamic
         + ar rv libscore.a score.o : makes .a file
-        + running file : gcc scoremain.c -o scoremain -I./ -L / -lscore
+        + running file : gcc scoremain.c -o scoremain -I./ -L./ -lscore
